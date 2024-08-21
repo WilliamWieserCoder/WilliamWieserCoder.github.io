@@ -1,4 +1,3 @@
-/* Estilo geral do corpo */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,11 +6,12 @@ body {
     color: #e0e0e0;
 }
 
-/* Estilo do cabeçalho */
 header {
-    background: #1f1f1f;
+    background-image: url(Back.jpg) ; 
+    background-size: cover;
+    background-position: center;
     color: #e0e0e0;
-    padding: 20px;
+    padding: 1px;
     text-align: center;
 }
 
@@ -47,7 +47,6 @@ nav ul li a {
     text-decoration: none;
 }
 
-/* Estilo do conteúdo principal */
 main {
     padding: 20px;
     max-width: 800px;
@@ -63,7 +62,35 @@ iframe {
     border: 1px solid #333;
 }
 
-/* Estilo do rodapé */
+.console-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.console-item {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.console-item a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.console-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.console-item h3 {
+    color: #ff9800;
+    font-size: 1.2rem;
+}
+
 footer {
     background: #1f1f1f;
     color: #e0e0e0;
